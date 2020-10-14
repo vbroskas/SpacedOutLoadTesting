@@ -1,4 +1,8 @@
 defmodule SpaceLoadTest do
+  @moduledoc """
+  for this test to work I needed to deactivate the user verification token in SpaceWeb.UserSocket, and add user_id to the socket
+  params!
+  """
   use GenServer
   require Logger
 
